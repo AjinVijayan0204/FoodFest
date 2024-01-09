@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872BEE70290D43AB001E296F /* FoodFestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE6F290D43AB001E296F /* FoodFestApp.swift */; };
+		872BEE72290D43AB001E296F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE71290D43AB001E296F /* ContentView.swift */; };
+		872BEE74290D43AC001E296F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872BEE73290D43AC001E296F /* Assets.xcassets */; };
+		872BEE77290D43AC001E296F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872BEE76290D43AC001E296F /* Preview Assets.xcassets */; };
+		872BEE7F290D4441001E296F /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 872BEE7E290D4441001E296F /* Apollo */; };
+		872BEE81290D4467001E296F /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 872BEE80290D4467001E296F /* schema.json */; };
+		872BEE84290D44DA001E296F /* FoodApiCalls.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 872BEE83290D44DA001E296F /* FoodApiCalls.graphql */; };
+		872BEE87290D4723001E296F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE86290D4723001E296F /* API.swift */; };
+		872BEE89290D489B001E296F /* ApolloNetworkConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE88290D489B001E296F /* ApolloNetworkConnections.swift */; };
+		872BEE8C290D4920001E296F /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE8B290D4920001E296F /* Food.swift */; };
+		872BEE8E290D4984001E296F /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE8D290D4984001E296F /* FoodService.swift */; };
+		872BEE90290D5324001E296F /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE8F290D5324001E296F /* HomeCoordinator.swift */; };
+		872BEE93290D55D1001E296F /* ShowFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE92290D55D1001E296F /* ShowFood.swift */; };
+		872BEE95290D58F7001E296F /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE94290D58F7001E296F /* ContentCell.swift */; };
+		872BEE97290D5A0C001E296F /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE96290D5A0C001E296F /* AsyncImageView.swift */; };
+		872BEE9B290D5D5D001E296F /* AddFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE9A290D5D5D001E296F /* AddFood.swift */; };
+		872BEE9D290D64A9001E296F /* CustomText_LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE9C290D64A9001E296F /* CustomText_LabelView.swift */; };
+		872BEE9F290D667A001E296F /* UsedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEE9E290D667A001E296F /* UsedValues.swift */; };
+		872BEEA1290D8DB7001E296F /* CustomToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEEA0290D8DB7001E296F /* CustomToggle.swift */; };
+		872BEEA3290D8F0E001E296F /* Custom_Image_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872BEEA2290D8F0E001E296F /* Custom_Image_View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		872BEE6C290D43AB001E296F /* FoodFest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		872BEE6F290D43AB001E296F /* FoodFestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFestApp.swift; sourceTree = "<group>"; };
+		872BEE71290D43AB001E296F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		872BEE73290D43AC001E296F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		872BEE76290D43AC001E296F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		872BEE80290D4467001E296F /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		872BEE83290D44DA001E296F /* FoodApiCalls.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = FoodApiCalls.graphql; sourceTree = "<group>"; };
+		872BEE86290D4723001E296F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = FoodFest/API.swift; sourceTree = SOURCE_ROOT; };
+		872BEE88290D489B001E296F /* ApolloNetworkConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloNetworkConnections.swift; sourceTree = "<group>"; };
+		872BEE8B290D4920001E296F /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		872BEE8D290D4984001E296F /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		872BEE8F290D5324001E296F /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		872BEE92290D55D1001E296F /* ShowFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowFood.swift; sourceTree = "<group>"; };
+		872BEE94290D58F7001E296F /* ContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
+		872BEE96290D5A0C001E296F /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		872BEE9A290D5D5D001E296F /* AddFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFood.swift; sourceTree = "<group>"; };
+		872BEE9C290D64A9001E296F /* CustomText_LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText_LabelView.swift; sourceTree = "<group>"; };
+		872BEE9E290D667A001E296F /* UsedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedValues.swift; sourceTree = "<group>"; };
+		872BEEA0290D8DB7001E296F /* CustomToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggle.swift; sourceTree = "<group>"; };
+		872BEEA2290D8F0E001E296F /* Custom_Image_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_Image_View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		872BEE69290D43AB001E296F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872BEE7F290D4441001E296F /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		872BEE63290D43AB001E296F = {
+			isa = PBXGroup;
+			children = (
+				872BEE6E290D43AB001E296F /* FoodFest */,
+				872BEE6D290D43AB001E296F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		872BEE6D290D43AB001E296F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE6C290D43AB001E296F /* FoodFest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		872BEE6E290D43AB001E296F /* FoodFest */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE8A290D4910001E296F /* Model */,
+				872BEE85290D4701001E296F /* GraphQL */,
+				872BEE91290D55B2001E296F /* Views */,
+				872BEE80290D4467001E296F /* schema.json */,
+				872BEE6F290D43AB001E296F /* FoodFestApp.swift */,
+				872BEE8F290D5324001E296F /* HomeCoordinator.swift */,
+				872BEE71290D43AB001E296F /* ContentView.swift */,
+				872BEE73290D43AC001E296F /* Assets.xcassets */,
+				872BEE75290D43AC001E296F /* Preview Content */,
+			);
+			path = FoodFest;
+			sourceTree = "<group>";
+		};
+		872BEE75290D43AC001E296F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE76290D43AC001E296F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		872BEE85290D4701001E296F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE86290D4723001E296F /* API.swift */,
+				872BEE83290D44DA001E296F /* FoodApiCalls.graphql */,
+				872BEE88290D489B001E296F /* ApolloNetworkConnections.swift */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		872BEE8A290D4910001E296F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE8B290D4920001E296F /* Food.swift */,
+				872BEE8D290D4984001E296F /* FoodService.swift */,
+				872BEE9E290D667A001E296F /* UsedValues.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		872BEE91290D55B2001E296F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE99290D5D4C001E296F /* Add Food */,
+				872BEE98290D5D31001E296F /* ShowFood */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		872BEE98290D5D31001E296F /* ShowFood */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE92290D55D1001E296F /* ShowFood.swift */,
+				872BEE94290D58F7001E296F /* ContentCell.swift */,
+				872BEE96290D5A0C001E296F /* AsyncImageView.swift */,
+			);
+			path = ShowFood;
+			sourceTree = "<group>";
+		};
+		872BEE99290D5D4C001E296F /* Add Food */ = {
+			isa = PBXGroup;
+			children = (
+				872BEE9A290D5D5D001E296F /* AddFood.swift */,
+				872BEE9C290D64A9001E296F /* CustomText_LabelView.swift */,
+				872BEEA0290D8DB7001E296F /* CustomToggle.swift */,
+				872BEEA2290D8F0E001E296F /* Custom_Image_View.swift */,
+			);
+			path = "Add Food";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		872BEE6B290D43AB001E296F /* FoodFest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872BEE7A290D43AC001E296F /* Build configuration list for PBXNativeTarget "FoodFest" */;
+			buildPhases = (
+				872BEE82290D449C001E296F /* Generate Apollo GraphQL API */,
+				872BEE68290D43AB001E296F /* Sources */,
+				872BEE69290D43AB001E296F /* Frameworks */,
+				872BEE6A290D43AB001E296F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodFest;
+			packageProductDependencies = (
+				872BEE7E290D4441001E296F /* Apollo */,
+			);
+			productName = FoodFest;
+			productReference = 872BEE6C290D43AB001E296F /* FoodFest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		872BEE64290D43AB001E296F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					872BEE6B290D43AB001E296F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 872BEE67290D43AB001E296F /* Build configuration list for PBXProject "FoodFest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 872BEE63290D43AB001E296F;
+			packageReferences = (
+				872BEE7D290D4441001E296F /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 872BEE6D290D43AB001E296F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872BEE6B290D43AB001E296F /* FoodFest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		872BEE6A290D43AB001E296F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872BEE77290D43AC001E296F /* Preview Assets.xcassets in Resources */,
+				872BEE81290D4467001E296F /* schema.json in Resources */,
+				872BEE84290D44DA001E296F /* FoodApiCalls.graphql in Resources */,
+				872BEE74290D43AC001E296F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		872BEE82290D449C001E296F /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		872BEE68290D43AB001E296F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872BEE72290D43AB001E296F /* ContentView.swift in Sources */,
+				872BEEA3290D8F0E001E296F /* Custom_Image_View.swift in Sources */,
+				872BEE8E290D4984001E296F /* FoodService.swift in Sources */,
+				872BEE9B290D5D5D001E296F /* AddFood.swift in Sources */,
+				872BEE93290D55D1001E296F /* ShowFood.swift in Sources */,
+				872BEE97290D5A0C001E296F /* AsyncImageView.swift in Sources */,
+				872BEE95290D58F7001E296F /* ContentCell.swift in Sources */,
+				872BEE89290D489B001E296F /* ApolloNetworkConnections.swift in Sources */,
+				872BEE9D290D64A9001E296F /* CustomText_LabelView.swift in Sources */,
+				872BEEA1290D8DB7001E296F /* CustomToggle.swift in Sources */,
+				872BEE8C290D4920001E296F /* Food.swift in Sources */,
+				872BEE9F290D667A001E296F /* UsedValues.swift in Sources */,
+				872BEE87290D4723001E296F /* API.swift in Sources */,
+				872BEE90290D5324001E296F /* HomeCoordinator.swift in Sources */,
+				872BEE70290D43AB001E296F /* FoodFestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		872BEE78290D43AC001E296F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		872BEE79290D43AC001E296F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		872BEE7B290D43AC001E296F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodFest/Preview Content\"";
+				DEVELOPMENT_TEAM = V295X7TJF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajin.FoodFest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		872BEE7C290D43AC001E296F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoodFest/Preview Content\"";
+				DEVELOPMENT_TEAM = V295X7TJF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajin.FoodFest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		872BEE67290D43AB001E296F /* Build configuration list for PBXProject "FoodFest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872BEE78290D43AC001E296F /* Debug */,
+				872BEE79290D43AC001E296F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872BEE7A290D43AC001E296F /* Build configuration list for PBXNativeTarget "FoodFest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872BEE7B290D43AC001E296F /* Debug */,
+				872BEE7C290D43AC001E296F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		872BEE7D290D4441001E296F /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.50.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		872BEE7E290D4441001E296F /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 872BEE7D290D4441001E296F /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 872BEE64290D43AB001E296F /* Project object */;
+}

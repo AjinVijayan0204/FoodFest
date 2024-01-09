@@ -1,0 +1,16 @@
+query FoodFetch {
+  foods {
+    name
+    veg
+    imgUrl
+  }
+}
+
+
+mutation AddFoodWithImage($name: String, $veg: Boolean, $imgUrl: String) {
+  addFoodWithImage(name: $name, veg: $veg, imgUrl: $imgUrl) {
+    name
+    veg
+    imgUrl
+  }
+}
